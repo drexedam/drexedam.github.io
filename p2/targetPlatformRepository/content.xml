@@ -914,6 +914,79 @@
         </instructions>
       </touchpointData>
     </unit>
+    <unit id='at.fhv.tedapt.library.flyaway' version='1.0.0.201504090733' singleton='false'>
+      <update id='at.fhv.tedapt.library.flyaway' range='[0.0.0,1.0.0.201504090733)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='Flyaway'/>
+        <property name='maven-groupId' value='Tedapt'/>
+        <property name='maven-artifactId' value='at.fhv.tedapt.library.flyaway'/>
+        <property name='maven-version' value='1.0.0-SNAPSHOT'/>
+      </properties>
+      <provides size='44'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='at.fhv.tedapt.library.flyaway' version='1.0.0.201504090733'/>
+        <provided namespace='osgi.bundle' name='at.fhv.tedapt.library.flyaway' version='1.0.0.201504090733'/>
+        <provided namespace='java.package' name='org.flywaydb.core' version='0.0.0'/>
+        <provided namespace='java.package' name='org.flywaydb.core.api' version='0.0.0'/>
+        <provided namespace='java.package' name='org.flywaydb.core.api.android' version='0.0.0'/>
+        <provided namespace='java.package' name='org.flywaydb.core.api.callback' version='0.0.0'/>
+        <provided namespace='java.package' name='org.flywaydb.core.api.migration' version='0.0.0'/>
+        <provided namespace='java.package' name='org.flywaydb.core.api.migration.jdbc' version='0.0.0'/>
+        <provided namespace='java.package' name='org.flywaydb.core.api.migration.spring' version='0.0.0'/>
+        <provided namespace='java.package' name='org.flywaydb.core.api.resolver' version='0.0.0'/>
+        <provided namespace='java.package' name='org.flywaydb.core.internal.callback' version='0.0.0'/>
+        <provided namespace='java.package' name='org.flywaydb.core.internal.command' version='0.0.0'/>
+        <provided namespace='java.package' name='org.flywaydb.core.internal.dbsupport' version='0.0.0'/>
+        <provided namespace='java.package' name='org.flywaydb.core.internal.dbsupport.db2' version='0.0.0'/>
+        <provided namespace='java.package' name='org.flywaydb.core.internal.dbsupport.db2zos' version='0.0.0'/>
+        <provided namespace='java.package' name='org.flywaydb.core.internal.dbsupport.derby' version='0.0.0'/>
+        <provided namespace='java.package' name='org.flywaydb.core.internal.dbsupport.h2' version='0.0.0'/>
+        <provided namespace='java.package' name='org.flywaydb.core.internal.dbsupport.hsql' version='0.0.0'/>
+        <provided namespace='java.package' name='org.flywaydb.core.internal.dbsupport.mysql' version='0.0.0'/>
+        <provided namespace='java.package' name='org.flywaydb.core.internal.dbsupport.oracle' version='0.0.0'/>
+        <provided namespace='java.package' name='org.flywaydb.core.internal.dbsupport.postgresql' version='0.0.0'/>
+        <provided namespace='java.package' name='org.flywaydb.core.internal.dbsupport.redshift' version='0.0.0'/>
+        <provided namespace='java.package' name='org.flywaydb.core.internal.dbsupport.sqlite' version='0.0.0'/>
+        <provided namespace='java.package' name='org.flywaydb.core.internal.dbsupport.sqlserver' version='0.0.0'/>
+        <provided namespace='java.package' name='org.flywaydb.core.internal.dbsupport.vertica' version='0.0.0'/>
+        <provided namespace='java.package' name='org.flywaydb.core.internal.info' version='0.0.0'/>
+        <provided namespace='java.package' name='org.flywaydb.core.internal.metadatatable' version='0.0.0'/>
+        <provided namespace='java.package' name='org.flywaydb.core.internal.resolver' version='0.0.0'/>
+        <provided namespace='java.package' name='org.flywaydb.core.internal.resolver.jdbc' version='0.0.0'/>
+        <provided namespace='java.package' name='org.flywaydb.core.internal.resolver.spring' version='0.0.0'/>
+        <provided namespace='java.package' name='org.flywaydb.core.internal.resolver.sql' version='0.0.0'/>
+        <provided namespace='java.package' name='org.flywaydb.core.internal.util' version='0.0.0'/>
+        <provided namespace='java.package' name='org.flywaydb.core.internal.util.jdbc' version='0.0.0'/>
+        <provided namespace='java.package' name='org.flywaydb.core.internal.util.logging' version='0.0.0'/>
+        <provided namespace='java.package' name='org.flywaydb.core.internal.util.logging.android' version='0.0.0'/>
+        <provided namespace='java.package' name='org.flywaydb.core.internal.util.logging.apachecommons' version='0.0.0'/>
+        <provided namespace='java.package' name='org.flywaydb.core.internal.util.logging.javautil' version='0.0.0'/>
+        <provided namespace='java.package' name='org.flywaydb.core.internal.util.logging.slf4j' version='0.0.0'/>
+        <provided namespace='java.package' name='org.flywaydb.core.internal.util.scanner' version='0.0.0'/>
+        <provided namespace='java.package' name='org.flywaydb.core.internal.util.scanner.android' version='0.0.0'/>
+        <provided namespace='java.package' name='org.flywaydb.core.internal.util.scanner.classpath' version='0.0.0'/>
+        <provided namespace='java.package' name='org.flywaydb.core.internal.util.scanner.classpath.jboss' version='0.0.0'/>
+        <provided namespace='java.package' name='org.flywaydb.core.internal.util.scanner.filesystem' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='5'>
+        <required namespace='osgi.bundle' name='com.mysql.jdbc' range='5.1.26' optional='true' greedy='false'/>
+        <required namespace='osgi.bundle' name='com.db4o' range='8.0.249' optional='true' greedy='false'/>
+        <required namespace='osgi.bundle' name='com.microsoft.sqlserver.jdbc' range='4.0.2206' optional='true' greedy='false'/>
+        <required namespace='osgi.bundle' name='org.hsqldb' range='2.3.2' optional='true' greedy='false'/>
+        <required namespace='osgi.bundle' name='org.postgresql' range='9.2.1003' optional='true' greedy='false'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='at.fhv.tedapt.library.flyaway' version='1.0.0.201504090733'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: at.fhv.tedapt.library.flyaway&#xA;Bundle-Version: 1.0.0.201504090733
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
     <unit id='org.eclipse.emf.ecore.change' version='2.10.0.v20150123-0348'>
       <update id='org.eclipse.emf.ecore.change' range='[0.0.0,2.10.0.v20150123-0348)' severity='0'/>
       <properties size='5'>
@@ -1398,6 +1471,51 @@
         </instructions>
       </touchpointData>
     </unit>
+    <unit id='at.fhv.tedapt.library.jooq' version='1.0.0.201504090733' singleton='false'>
+      <update id='at.fhv.tedapt.library.jooq' range='[0.0.0,1.0.0.201504090733)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='Jooq'/>
+        <property name='maven-groupId' value='Tedapt'/>
+        <property name='maven-artifactId' value='at.fhv.tedapt.library.jooq'/>
+        <property name='maven-version' value='1.0.0-SNAPSHOT'/>
+      </properties>
+      <provides size='23'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='at.fhv.tedapt.library.jooq' version='1.0.0.201504090733'/>
+        <provided namespace='osgi.bundle' name='at.fhv.tedapt.library.jooq' version='1.0.0.201504090733'/>
+        <provided namespace='java.package' name='org.jooq' version='0.0.0'/>
+        <provided namespace='java.package' name='org.jooq.api.annotation' version='0.0.0'/>
+        <provided namespace='java.package' name='org.jooq.conf' version='0.0.0'/>
+        <provided namespace='java.package' name='org.jooq.exception' version='0.0.0'/>
+        <provided namespace='java.package' name='org.jooq.impl' version='0.0.0'/>
+        <provided namespace='java.package' name='org.jooq.tools' version='0.0.0'/>
+        <provided namespace='java.package' name='org.jooq.tools.csv' version='0.0.0'/>
+        <provided namespace='java.package' name='org.jooq.tools.jdbc' version='0.0.0'/>
+        <provided namespace='java.package' name='org.jooq.tools.json' version='0.0.0'/>
+        <provided namespace='java.package' name='org.jooq.tools.reflect' version='0.0.0'/>
+        <provided namespace='java.package' name='org.jooq.types' version='0.0.0'/>
+        <provided namespace='java.package' name='org.jooq.util.cubrid' version='0.0.0'/>
+        <provided namespace='java.package' name='org.jooq.util.derby' version='0.0.0'/>
+        <provided namespace='java.package' name='org.jooq.util.firebird' version='0.0.0'/>
+        <provided namespace='java.package' name='org.jooq.util.h2' version='0.0.0'/>
+        <provided namespace='java.package' name='org.jooq.util.hsqldb' version='0.0.0'/>
+        <provided namespace='java.package' name='org.jooq.util.mariadb' version='0.0.0'/>
+        <provided namespace='java.package' name='org.jooq.util.mysql' version='0.0.0'/>
+        <provided namespace='java.package' name='org.jooq.util.postgres' version='0.0.0'/>
+        <provided namespace='java.package' name='org.jooq.util.sqlite' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='at.fhv.tedapt.library.jooq' version='1.0.0.201504090733'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: at.fhv.tedapt.library.jooq&#xA;Bundle-Version: 1.0.0.201504090733
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
     <unit id='org.eclipse.core.expressions' version='3.4.600.v20140128-0851'>
       <update id='org.eclipse.core.expressions' range='[0.0.0,3.4.600.v20140128-0851)' severity='0'/>
       <properties size='8'>
@@ -1517,33 +1635,6 @@
         </instructions>
       </touchpointData>
     </unit>
-    <unit id='at.fhv.tedapt.library.jsonsimple' version='1.0.0.201504090708' singleton='false'>
-      <update id='at.fhv.tedapt.library.jsonsimple' range='[0.0.0,1.0.0.201504090708)' severity='0'/>
-      <properties size='4'>
-        <property name='org.eclipse.equinox.p2.name' value='Json Simple'/>
-        <property name='maven-groupId' value='Tedapt'/>
-        <property name='maven-artifactId' value='at.fhv.tedapt.library.jsonsimple'/>
-        <property name='maven-version' value='1.0.0-SNAPSHOT'/>
-      </properties>
-      <provides size='5'>
-        <provided namespace='org.eclipse.equinox.p2.iu' name='at.fhv.tedapt.library.jsonsimple' version='1.0.0.201504090708'/>
-        <provided namespace='osgi.bundle' name='at.fhv.tedapt.library.jsonsimple' version='1.0.0.201504090708'/>
-        <provided namespace='java.package' name='org.json.simple' version='0.0.0'/>
-        <provided namespace='java.package' name='org.json.simple.parser' version='0.0.0'/>
-        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
-      </provides>
-      <artifacts size='1'>
-        <artifact classifier='osgi.bundle' id='at.fhv.tedapt.library.jsonsimple' version='1.0.0.201504090708'/>
-      </artifacts>
-      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
-      <touchpointData size='1'>
-        <instructions size='1'>
-          <instruction key='manifest'>
-            Bundle-SymbolicName: at.fhv.tedapt.library.jsonsimple&#xA;Bundle-Version: 1.0.0.201504090708
-          </instruction>
-        </instructions>
-      </touchpointData>
-    </unit>
     <unit id='org.apache.batik.css' version='1.7.0.v201011041433' singleton='false'>
       <update id='org.apache.batik.css' range='[0.0.0,1.7.0.v201011041433)' severity='0'/>
       <properties size='5'>
@@ -1584,52 +1675,6 @@
         <instructions size='1'>
           <instruction key='manifest'>
             Bundle-SymbolicName: org.apache.batik.css&#xA;Bundle-Version: 1.7.0.v201011041433
-          </instruction>
-        </instructions>
-      </touchpointData>
-    </unit>
-    <unit id='at.fhv.tedapt' version='1.0.0.201504090708'>
-      <update id='at.fhv.tedapt' range='[0.0.0,1.0.0.201504090708)' severity='0'/>
-      <properties size='4'>
-        <property name='org.eclipse.equinox.p2.name' value='Tedapt'/>
-        <property name='maven-groupId' value='Tedapt'/>
-        <property name='maven-artifactId' value='at.fhv.tedapt'/>
-        <property name='maven-version' value='1.0.0-SNAPSHOT'/>
-      </properties>
-      <provides size='4'>
-        <provided namespace='org.eclipse.equinox.p2.iu' name='at.fhv.tedapt' version='1.0.0.201504090708'/>
-        <provided namespace='osgi.bundle' name='at.fhv.tedapt' version='1.0.0.201504090708'/>
-        <provided namespace='java.package' name='at.fhv.tedapt' version='0.0.0'/>
-        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
-      </provides>
-      <requires size='18'>
-        <required namespace='osgi.bundle' name='org.eclipse.ui' range='0.0.0'/>
-        <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
-        <required namespace='osgi.bundle' name='org.eclipse.core.resources' range='0.0.0'/>
-        <required namespace='osgi.bundle' name='org.eclipse.emf.edapt.declaration' range='1.0.1'/>
-        <required namespace='osgi.bundle' name='org.eclipse.emf.edapt.common' range='1.0.1'/>
-        <required namespace='osgi.bundle' name='org.eclipse.emf.edapt.migration' range='1.0.1'/>
-        <required namespace='osgi.bundle' name='org.hibernate' range='0.0.0'/>
-        <required namespace='osgi.bundle' name='com.mysql.jdbc' range='5.1.26' optional='true' greedy='false'/>
-        <required namespace='osgi.bundle' name='com.db4o' range='8.0.249' optional='true' greedy='false'/>
-        <required namespace='osgi.bundle' name='com.microsoft.sqlserver.jdbc' range='4.0.2206' optional='true' greedy='false'/>
-        <required namespace='osgi.bundle' name='org.hsqldb' range='2.3.2' optional='true' greedy='false'/>
-        <required namespace='osgi.bundle' name='org.postgresql' range='9.2.1003' optional='true' greedy='false'/>
-        <required namespace='osgi.bundle' name='org.eclipse.emf.edapt.history' range='1.0.1'/>
-        <required namespace='osgi.bundle' name='org.apache.log4j' range='0.0.0'/>
-        <required namespace='osgi.bundle' name='at.fhv.tedapt.library.flyaway' range='1.0.0'/>
-        <required namespace='osgi.bundle' name='at.fhv.tedapt.library.jsonsimple' range='1.0.0'/>
-        <required namespace='osgi.bundle' name='org.eclipse.emf.ecore' range='2.10.2'/>
-        <required namespace='java.package' name='org.eclipse.jdt.core' range='0.0.0'/>
-      </requires>
-      <artifacts size='1'>
-        <artifact classifier='osgi.bundle' id='at.fhv.tedapt' version='1.0.0.201504090708'/>
-      </artifacts>
-      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
-      <touchpointData size='1'>
-        <instructions size='1'>
-          <instruction key='manifest'>
-            Bundle-SymbolicName: at.fhv.tedapt;singleton:=true&#xA;Bundle-Version: 1.0.0.201504090708
           </instruction>
         </instructions>
       </touchpointData>
@@ -1716,52 +1761,6 @@
           </instruction>
         </instructions>
       </touchpointData>
-    </unit>
-    <unit id='at.fhv.tedapt.feature.feature.group' version='1.0.0.201504090708' singleton='false'>
-      <update id='at.fhv.tedapt.feature.feature.group' range='[0.0.0,1.0.0.201504090708)' severity='0'/>
-      <properties size='7'>
-        <property name='org.eclipse.equinox.p2.name' value='Feature'/>
-        <property name='org.eclipse.equinox.p2.description' value='[Enter Feature Description here.]'/>
-        <property name='org.eclipse.equinox.p2.description.url' value='http://www.example.com/description'/>
-        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
-        <property name='maven-groupId' value='Tedapt'/>
-        <property name='maven-artifactId' value='at.fhv.tedapt.feature'/>
-        <property name='maven-version' value='1.0.0-SNAPSHOT'/>
-      </properties>
-      <provides size='1'>
-        <provided namespace='org.eclipse.equinox.p2.iu' name='at.fhv.tedapt.feature.feature.group' version='1.0.0.201504090708'/>
-      </provides>
-      <requires size='16'>
-        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ui' range='0.0.0'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.core.runtime' range='0.0.0'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.core.resources' range='0.0.0'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.emf.edapt.declaration' range='1.0.1'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.emf.edapt.common' range='1.0.1'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.emf.edapt.migration' range='1.0.1'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='org.hibernate' range='0.0.0'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.log4j' range='0.0.0'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.emf.ecore' range='0.0.0'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.jdt.core' range='0.0.0'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.emf.edapt.history' range='1.0.1'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='at.fhv.tedapt' range='[1.0.0.201504090708,1.0.0.201504090708]'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='at.fhv.tedapt.library.flyaway' range='[1.0.0.201504090708,1.0.0.201504090708]'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='at.fhv.tedapt.library.jsonsimple' range='[1.0.0.201504090708,1.0.0.201504090708]'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='at.fhv.tedapt.library.jooq' range='[1.0.0.201504090708,1.0.0.201504090708]'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='at.fhv.tedapt.feature.feature.jar' range='[1.0.0.201504090708,1.0.0.201504090708]'>
-          <filter>
-            (org.eclipse.update.install.features=true)
-          </filter>
-        </required>
-      </requires>
-      <touchpoint id='null' version='0.0.0'/>
-      <licenses size='1'>
-        <license uri='http://www.example.com/license' url='http://www.example.com/license'>
-          [Enter License Description here.]
-        </license>
-      </licenses>
-      <copyright uri='http://www.example.com/copyright' url='http://www.example.com/copyright'>
-        [Enter Copyright Description here.]
-      </copyright>
     </unit>
     <unit id='org.eclipse.ui.workbench' version='3.106.2.v20150204-1030'>
       <update id='org.eclipse.ui.workbench' range='[0.0.0,3.106.2.v20150204-1030)' severity='0'/>
@@ -2253,6 +2252,52 @@
         </instructions>
       </touchpointData>
     </unit>
+    <unit id='at.fhv.tedapt.feature.feature.group' version='1.0.0.201504090733' singleton='false'>
+      <update id='at.fhv.tedapt.feature.feature.group' range='[0.0.0,1.0.0.201504090733)' severity='0'/>
+      <properties size='7'>
+        <property name='org.eclipse.equinox.p2.name' value='Feature'/>
+        <property name='org.eclipse.equinox.p2.description' value='[Enter Feature Description here.]'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='http://www.example.com/description'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+        <property name='maven-groupId' value='Tedapt'/>
+        <property name='maven-artifactId' value='at.fhv.tedapt.feature'/>
+        <property name='maven-version' value='1.0.0-SNAPSHOT'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='at.fhv.tedapt.feature.feature.group' version='1.0.0.201504090733'/>
+      </provides>
+      <requires size='16'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ui' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.core.runtime' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.core.resources' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.emf.edapt.declaration' range='1.0.1'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.emf.edapt.common' range='1.0.1'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.emf.edapt.migration' range='1.0.1'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.hibernate' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.log4j' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.emf.ecore' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.jdt.core' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.emf.edapt.history' range='1.0.1'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='at.fhv.tedapt' range='[1.0.0.201504090733,1.0.0.201504090733]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='at.fhv.tedapt.library.flyaway' range='[1.0.0.201504090733,1.0.0.201504090733]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='at.fhv.tedapt.library.jsonsimple' range='[1.0.0.201504090733,1.0.0.201504090733]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='at.fhv.tedapt.library.jooq' range='[1.0.0.201504090733,1.0.0.201504090733]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='at.fhv.tedapt.feature.feature.jar' range='[1.0.0.201504090733,1.0.0.201504090733]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+      <licenses size='1'>
+        <license uri='http://www.example.com/license' url='http://www.example.com/license'>
+          [Enter License Description here.]
+        </license>
+      </licenses>
+      <copyright uri='http://www.example.com/copyright' url='http://www.example.com/copyright'>
+        [Enter Copyright Description here.]
+      </copyright>
+    </unit>
     <unit id='org.apache.batik.util' version='1.7.0.v201011041433' singleton='false'>
       <update id='org.apache.batik.util' range='[0.0.0,1.7.0.v201011041433)' severity='0'/>
       <properties size='5'>
@@ -2696,6 +2741,52 @@
         </instructions>
       </touchpointData>
     </unit>
+    <unit id='at.fhv.tedapt' version='1.0.0.201504090733'>
+      <update id='at.fhv.tedapt' range='[0.0.0,1.0.0.201504090733)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='Tedapt'/>
+        <property name='maven-groupId' value='Tedapt'/>
+        <property name='maven-artifactId' value='at.fhv.tedapt'/>
+        <property name='maven-version' value='1.0.0-SNAPSHOT'/>
+      </properties>
+      <provides size='4'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='at.fhv.tedapt' version='1.0.0.201504090733'/>
+        <provided namespace='osgi.bundle' name='at.fhv.tedapt' version='1.0.0.201504090733'/>
+        <provided namespace='java.package' name='at.fhv.tedapt' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='18'>
+        <required namespace='osgi.bundle' name='org.eclipse.ui' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.resources' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.emf.edapt.declaration' range='1.0.1'/>
+        <required namespace='osgi.bundle' name='org.eclipse.emf.edapt.common' range='1.0.1'/>
+        <required namespace='osgi.bundle' name='org.eclipse.emf.edapt.migration' range='1.0.1'/>
+        <required namespace='osgi.bundle' name='org.hibernate' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='com.mysql.jdbc' range='5.1.26' optional='true' greedy='false'/>
+        <required namespace='osgi.bundle' name='com.db4o' range='8.0.249' optional='true' greedy='false'/>
+        <required namespace='osgi.bundle' name='com.microsoft.sqlserver.jdbc' range='4.0.2206' optional='true' greedy='false'/>
+        <required namespace='osgi.bundle' name='org.hsqldb' range='2.3.2' optional='true' greedy='false'/>
+        <required namespace='osgi.bundle' name='org.postgresql' range='9.2.1003' optional='true' greedy='false'/>
+        <required namespace='osgi.bundle' name='org.eclipse.emf.edapt.history' range='1.0.1'/>
+        <required namespace='osgi.bundle' name='org.apache.log4j' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='at.fhv.tedapt.library.flyaway' range='1.0.0'/>
+        <required namespace='osgi.bundle' name='at.fhv.tedapt.library.jsonsimple' range='1.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.emf.ecore' range='2.10.2'/>
+        <required namespace='java.package' name='org.eclipse.jdt.core' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='at.fhv.tedapt' version='1.0.0.201504090733'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: at.fhv.tedapt;singleton:=true&#xA;Bundle-Version: 1.0.0.201504090733
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
     <unit id='org.apache.batik.util.gui' version='1.7.0.v200903091627' singleton='false'>
       <update id='org.apache.batik.util.gui' range='[0.0.0,1.7.0.v200903091627)' severity='0'/>
       <properties size='5'>
@@ -2842,50 +2933,69 @@
         </instructions>
       </touchpointData>
     </unit>
-    <unit id='at.fhv.tedapt.library.jooq' version='1.0.0.201504090708' singleton='false'>
-      <update id='at.fhv.tedapt.library.jooq' range='[0.0.0,1.0.0.201504090708)' severity='0'/>
+    <unit id='at.fhv.tedapt.library.jsonsimple' version='1.0.0.201504090733' singleton='false'>
+      <update id='at.fhv.tedapt.library.jsonsimple' range='[0.0.0,1.0.0.201504090733)' severity='0'/>
       <properties size='4'>
-        <property name='org.eclipse.equinox.p2.name' value='Jooq'/>
+        <property name='org.eclipse.equinox.p2.name' value='Json Simple'/>
         <property name='maven-groupId' value='Tedapt'/>
-        <property name='maven-artifactId' value='at.fhv.tedapt.library.jooq'/>
+        <property name='maven-artifactId' value='at.fhv.tedapt.library.jsonsimple'/>
         <property name='maven-version' value='1.0.0-SNAPSHOT'/>
       </properties>
-      <provides size='23'>
-        <provided namespace='org.eclipse.equinox.p2.iu' name='at.fhv.tedapt.library.jooq' version='1.0.0.201504090708'/>
-        <provided namespace='osgi.bundle' name='at.fhv.tedapt.library.jooq' version='1.0.0.201504090708'/>
-        <provided namespace='java.package' name='org.jooq' version='0.0.0'/>
-        <provided namespace='java.package' name='org.jooq.api.annotation' version='0.0.0'/>
-        <provided namespace='java.package' name='org.jooq.conf' version='0.0.0'/>
-        <provided namespace='java.package' name='org.jooq.exception' version='0.0.0'/>
-        <provided namespace='java.package' name='org.jooq.impl' version='0.0.0'/>
-        <provided namespace='java.package' name='org.jooq.tools' version='0.0.0'/>
-        <provided namespace='java.package' name='org.jooq.tools.csv' version='0.0.0'/>
-        <provided namespace='java.package' name='org.jooq.tools.jdbc' version='0.0.0'/>
-        <provided namespace='java.package' name='org.jooq.tools.json' version='0.0.0'/>
-        <provided namespace='java.package' name='org.jooq.tools.reflect' version='0.0.0'/>
-        <provided namespace='java.package' name='org.jooq.types' version='0.0.0'/>
-        <provided namespace='java.package' name='org.jooq.util.cubrid' version='0.0.0'/>
-        <provided namespace='java.package' name='org.jooq.util.derby' version='0.0.0'/>
-        <provided namespace='java.package' name='org.jooq.util.firebird' version='0.0.0'/>
-        <provided namespace='java.package' name='org.jooq.util.h2' version='0.0.0'/>
-        <provided namespace='java.package' name='org.jooq.util.hsqldb' version='0.0.0'/>
-        <provided namespace='java.package' name='org.jooq.util.mariadb' version='0.0.0'/>
-        <provided namespace='java.package' name='org.jooq.util.mysql' version='0.0.0'/>
-        <provided namespace='java.package' name='org.jooq.util.postgres' version='0.0.0'/>
-        <provided namespace='java.package' name='org.jooq.util.sqlite' version='0.0.0'/>
+      <provides size='5'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='at.fhv.tedapt.library.jsonsimple' version='1.0.0.201504090733'/>
+        <provided namespace='osgi.bundle' name='at.fhv.tedapt.library.jsonsimple' version='1.0.0.201504090733'/>
+        <provided namespace='java.package' name='org.json.simple' version='0.0.0'/>
+        <provided namespace='java.package' name='org.json.simple.parser' version='0.0.0'/>
         <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
       </provides>
       <artifacts size='1'>
-        <artifact classifier='osgi.bundle' id='at.fhv.tedapt.library.jooq' version='1.0.0.201504090708'/>
+        <artifact classifier='osgi.bundle' id='at.fhv.tedapt.library.jsonsimple' version='1.0.0.201504090733'/>
       </artifacts>
       <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
       <touchpointData size='1'>
         <instructions size='1'>
           <instruction key='manifest'>
-            Bundle-SymbolicName: at.fhv.tedapt.library.jooq&#xA;Bundle-Version: 1.0.0.201504090708
+            Bundle-SymbolicName: at.fhv.tedapt.library.jsonsimple&#xA;Bundle-Version: 1.0.0.201504090733
           </instruction>
         </instructions>
       </touchpointData>
+    </unit>
+    <unit id='at.fhv.tedapt.feature.feature.jar' version='1.0.0.201504090733'>
+      <properties size='6'>
+        <property name='org.eclipse.equinox.p2.name' value='Feature'/>
+        <property name='org.eclipse.equinox.p2.description' value='[Enter Feature Description here.]'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='http://www.example.com/description'/>
+        <property name='maven-groupId' value='Tedapt'/>
+        <property name='maven-artifactId' value='at.fhv.tedapt.feature'/>
+        <property name='maven-version' value='1.0.0-SNAPSHOT'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='at.fhv.tedapt.feature.feature.jar' version='1.0.0.201504090733'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='at.fhv.tedapt.feature' version='1.0.0.201504090733'/>
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='at.fhv.tedapt.feature' version='1.0.0.201504090733'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+      <licenses size='1'>
+        <license uri='http://www.example.com/license' url='http://www.example.com/license'>
+          [Enter License Description here.]
+        </license>
+      </licenses>
+      <copyright uri='http://www.example.com/copyright' url='http://www.example.com/copyright'>
+        [Enter Copyright Description here.]
+      </copyright>
     </unit>
     <unit id='org.eclipse.emf.edapt.migration' version='1.0.1.201501181223'>
       <update id='org.eclipse.emf.edapt.migration' range='[0.0.0,1.0.1.201501181223)' severity='0'/>
@@ -3673,79 +3783,6 @@
         </instructions>
       </touchpointData>
     </unit>
-    <unit id='at.fhv.tedapt.library.flyaway' version='1.0.0.201504090708' singleton='false'>
-      <update id='at.fhv.tedapt.library.flyaway' range='[0.0.0,1.0.0.201504090708)' severity='0'/>
-      <properties size='4'>
-        <property name='org.eclipse.equinox.p2.name' value='Flyaway'/>
-        <property name='maven-groupId' value='Tedapt'/>
-        <property name='maven-artifactId' value='at.fhv.tedapt.library.flyaway'/>
-        <property name='maven-version' value='1.0.0-SNAPSHOT'/>
-      </properties>
-      <provides size='44'>
-        <provided namespace='org.eclipse.equinox.p2.iu' name='at.fhv.tedapt.library.flyaway' version='1.0.0.201504090708'/>
-        <provided namespace='osgi.bundle' name='at.fhv.tedapt.library.flyaway' version='1.0.0.201504090708'/>
-        <provided namespace='java.package' name='org.flywaydb.core' version='0.0.0'/>
-        <provided namespace='java.package' name='org.flywaydb.core.api' version='0.0.0'/>
-        <provided namespace='java.package' name='org.flywaydb.core.api.android' version='0.0.0'/>
-        <provided namespace='java.package' name='org.flywaydb.core.api.callback' version='0.0.0'/>
-        <provided namespace='java.package' name='org.flywaydb.core.api.migration' version='0.0.0'/>
-        <provided namespace='java.package' name='org.flywaydb.core.api.migration.jdbc' version='0.0.0'/>
-        <provided namespace='java.package' name='org.flywaydb.core.api.migration.spring' version='0.0.0'/>
-        <provided namespace='java.package' name='org.flywaydb.core.api.resolver' version='0.0.0'/>
-        <provided namespace='java.package' name='org.flywaydb.core.internal.callback' version='0.0.0'/>
-        <provided namespace='java.package' name='org.flywaydb.core.internal.command' version='0.0.0'/>
-        <provided namespace='java.package' name='org.flywaydb.core.internal.dbsupport' version='0.0.0'/>
-        <provided namespace='java.package' name='org.flywaydb.core.internal.dbsupport.db2' version='0.0.0'/>
-        <provided namespace='java.package' name='org.flywaydb.core.internal.dbsupport.db2zos' version='0.0.0'/>
-        <provided namespace='java.package' name='org.flywaydb.core.internal.dbsupport.derby' version='0.0.0'/>
-        <provided namespace='java.package' name='org.flywaydb.core.internal.dbsupport.h2' version='0.0.0'/>
-        <provided namespace='java.package' name='org.flywaydb.core.internal.dbsupport.hsql' version='0.0.0'/>
-        <provided namespace='java.package' name='org.flywaydb.core.internal.dbsupport.mysql' version='0.0.0'/>
-        <provided namespace='java.package' name='org.flywaydb.core.internal.dbsupport.oracle' version='0.0.0'/>
-        <provided namespace='java.package' name='org.flywaydb.core.internal.dbsupport.postgresql' version='0.0.0'/>
-        <provided namespace='java.package' name='org.flywaydb.core.internal.dbsupport.redshift' version='0.0.0'/>
-        <provided namespace='java.package' name='org.flywaydb.core.internal.dbsupport.sqlite' version='0.0.0'/>
-        <provided namespace='java.package' name='org.flywaydb.core.internal.dbsupport.sqlserver' version='0.0.0'/>
-        <provided namespace='java.package' name='org.flywaydb.core.internal.dbsupport.vertica' version='0.0.0'/>
-        <provided namespace='java.package' name='org.flywaydb.core.internal.info' version='0.0.0'/>
-        <provided namespace='java.package' name='org.flywaydb.core.internal.metadatatable' version='0.0.0'/>
-        <provided namespace='java.package' name='org.flywaydb.core.internal.resolver' version='0.0.0'/>
-        <provided namespace='java.package' name='org.flywaydb.core.internal.resolver.jdbc' version='0.0.0'/>
-        <provided namespace='java.package' name='org.flywaydb.core.internal.resolver.spring' version='0.0.0'/>
-        <provided namespace='java.package' name='org.flywaydb.core.internal.resolver.sql' version='0.0.0'/>
-        <provided namespace='java.package' name='org.flywaydb.core.internal.util' version='0.0.0'/>
-        <provided namespace='java.package' name='org.flywaydb.core.internal.util.jdbc' version='0.0.0'/>
-        <provided namespace='java.package' name='org.flywaydb.core.internal.util.logging' version='0.0.0'/>
-        <provided namespace='java.package' name='org.flywaydb.core.internal.util.logging.android' version='0.0.0'/>
-        <provided namespace='java.package' name='org.flywaydb.core.internal.util.logging.apachecommons' version='0.0.0'/>
-        <provided namespace='java.package' name='org.flywaydb.core.internal.util.logging.javautil' version='0.0.0'/>
-        <provided namespace='java.package' name='org.flywaydb.core.internal.util.logging.slf4j' version='0.0.0'/>
-        <provided namespace='java.package' name='org.flywaydb.core.internal.util.scanner' version='0.0.0'/>
-        <provided namespace='java.package' name='org.flywaydb.core.internal.util.scanner.android' version='0.0.0'/>
-        <provided namespace='java.package' name='org.flywaydb.core.internal.util.scanner.classpath' version='0.0.0'/>
-        <provided namespace='java.package' name='org.flywaydb.core.internal.util.scanner.classpath.jboss' version='0.0.0'/>
-        <provided namespace='java.package' name='org.flywaydb.core.internal.util.scanner.filesystem' version='0.0.0'/>
-        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
-      </provides>
-      <requires size='5'>
-        <required namespace='osgi.bundle' name='com.mysql.jdbc' range='5.1.26' optional='true' greedy='false'/>
-        <required namespace='osgi.bundle' name='com.db4o' range='8.0.249' optional='true' greedy='false'/>
-        <required namespace='osgi.bundle' name='com.microsoft.sqlserver.jdbc' range='4.0.2206' optional='true' greedy='false'/>
-        <required namespace='osgi.bundle' name='org.hsqldb' range='2.3.2' optional='true' greedy='false'/>
-        <required namespace='osgi.bundle' name='org.postgresql' range='9.2.1003' optional='true' greedy='false'/>
-      </requires>
-      <artifacts size='1'>
-        <artifact classifier='osgi.bundle' id='at.fhv.tedapt.library.flyaway' version='1.0.0.201504090708'/>
-      </artifacts>
-      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
-      <touchpointData size='1'>
-        <instructions size='1'>
-          <instruction key='manifest'>
-            Bundle-SymbolicName: at.fhv.tedapt.library.flyaway&#xA;Bundle-Version: 1.0.0.201504090708
-          </instruction>
-        </instructions>
-      </touchpointData>
-    </unit>
     <unit id='org.eclipse.equinox.registry' version='3.5.400.v20140428-1507'>
       <update id='org.eclipse.equinox.registry' range='[0.0.0,3.5.400.v20140428-1507)' severity='0'/>
       <properties size='8'>
@@ -4025,43 +4062,6 @@
           </instruction>
         </instructions>
       </touchpointData>
-    </unit>
-    <unit id='at.fhv.tedapt.feature.feature.jar' version='1.0.0.201504090708'>
-      <properties size='6'>
-        <property name='org.eclipse.equinox.p2.name' value='Feature'/>
-        <property name='org.eclipse.equinox.p2.description' value='[Enter Feature Description here.]'/>
-        <property name='org.eclipse.equinox.p2.description.url' value='http://www.example.com/description'/>
-        <property name='maven-groupId' value='Tedapt'/>
-        <property name='maven-artifactId' value='at.fhv.tedapt.feature'/>
-        <property name='maven-version' value='1.0.0-SNAPSHOT'/>
-      </properties>
-      <provides size='3'>
-        <provided namespace='org.eclipse.equinox.p2.iu' name='at.fhv.tedapt.feature.feature.jar' version='1.0.0.201504090708'/>
-        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
-        <provided namespace='org.eclipse.update.feature' name='at.fhv.tedapt.feature' version='1.0.0.201504090708'/>
-      </provides>
-      <filter>
-        (org.eclipse.update.install.features=true)
-      </filter>
-      <artifacts size='1'>
-        <artifact classifier='org.eclipse.update.feature' id='at.fhv.tedapt.feature' version='1.0.0.201504090708'/>
-      </artifacts>
-      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
-      <touchpointData size='1'>
-        <instructions size='1'>
-          <instruction key='zipped'>
-            true
-          </instruction>
-        </instructions>
-      </touchpointData>
-      <licenses size='1'>
-        <license uri='http://www.example.com/license' url='http://www.example.com/license'>
-          [Enter License Description here.]
-        </license>
-      </licenses>
-      <copyright uri='http://www.example.com/copyright' url='http://www.example.com/copyright'>
-        [Enter Copyright Description here.]
-      </copyright>
     </unit>
     <unit id='org.eclipse.core.databinding.observable' version='1.4.1.v20140210-1835' singleton='false'>
       <update id='org.eclipse.core.databinding.observable' range='[0.0.0,1.4.1.v20140210-1835)' severity='0'/>
