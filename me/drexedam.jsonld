@@ -1,0 +1,19 @@
+{
+    "@context": {
+        "schema": "http://schema.org/"
+    },
+    "@id": "http://github.io/drexedam/me/drexedam.jsonld",
+    "@type": "schema:Person",
+    "schema:name": "Damian Drexel",
+    "nationality": {
+        "@type": "schema:Country",
+        "schema:name": "Austria"
+    },
+    "schema:sameAs": [
+        "https://github.com/drexedam"
+    ],
+    "schema:knowsLanguage": {
+        "@set": ["German", "English"]
+    },
+    "schema:honorificSuffix": "MSc" 
+}
