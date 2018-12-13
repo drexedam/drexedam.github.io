@@ -29,20 +29,24 @@
 
         <script type="ld+json">
         {
-            "@context": {
-                "schema": "http://schema.org/"
-            },
+            "@context": [
+                "https://json-ld.org/contexts/person.jsonld",
+                {
+                    "base": "http://schema.org/",
+                    "Country": "http://schema.org/Country"
+                }
+            ],
             "@id": "http://drexedam.github.io/me/drexedam.jsonld",
-            "@type": "schema:Person",
-            "schema:name": "Damian Drexel",
-            "schema:nationality": {
-                "@type": "schema:Country",
-                "schema:name": "Austria"
+            "@type": "Person",
+            "name": "Damian Drexel",
+            "nationality": {
+                "@type": "Country",
+                "name": "Austria"
             },
-            "schema:sameAs": [
+            "sameAs": [
                 "https://github.com/drexedam"
             ],
-            "schema:knowsLanguage": {
+            "knowsLanguage": {
                 "@set": ["German", "English"]
             }
         }
