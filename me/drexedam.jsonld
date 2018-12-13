@@ -2,7 +2,7 @@
     "@context": {
         "schema": "http://schema.org/"
     },
-    "@id": "http://github.io/drexedam/me/drexedam.jsonld",
+    "@id": "http://drexedam.github.io/me/drexedam.jsonld",
     "@type": "schema:Person",
     "schema:name": "Damian Drexel",
     "nationality": {
