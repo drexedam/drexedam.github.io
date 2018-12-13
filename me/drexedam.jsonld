@@ -5,7 +5,7 @@
     "@id": "http://drexedam.github.io/me/drexedam.jsonld",
     "@type": "schema:Person",
     "schema:name": "Damian Drexel",
-    "nationality": {
+    "schema:nationality": {
         "@type": "schema:Country",
         "schema:name": "Austria"
     },
